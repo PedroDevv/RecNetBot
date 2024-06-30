@@ -88,7 +88,7 @@ async def create(
     server_link = ctx.bot.config.get('server_link')
 
     # How many feeds can a user create
-    max_feeds = 2
+    max_feeds = 115
 
     # Make sure user is admin in server
     if not ctx.author.guild_permissions.administrator:
